@@ -13,12 +13,12 @@ let dias = prompt("ingrese plazo")
 switch(seleccion){
     case "1":
         alert(plazoFijoArg(capital, dias));
-        console.log(resultado);
+        console.log(plazoFijoArg(capital, dias));
         break;
     
     case "2":
         alert(plazoFijoDol(capital, dias));
-        console.log(resultado);
+        console.log(plazoFijoDol(capital, dias));
         break;
     default:
         break;
